@@ -1,0 +1,7 @@
+# .gitignore
+
+# Ignorar la carpeta reports
+/reports/
+
+# Ignorar la carpeta datasets
+/datasets/
