@@ -6,6 +6,25 @@ Para los estudiantes UDP, se facilita el acceso al dataset, así como a los info
 
 Para referencia adicional o para quienes deseen acceder a la fuente original, el dataset ha sido obtenido del portal de datos abiertos del Ministerio de Educación de Chile. Puedes acceder y descargar la versión 2022 del dataset directamente [aquí](https://datosabiertos.mineduc.cl/rendimiento-por-estudiante-2/).
 
+## Estructura del Repositorio
+
+Para un correcto funcionamiento de los scripts, es importante mantener una estructura organizada de los archivos y carpetas. Asegúrate de que las carpetas `datasets` y `reports` se encuentren en el directorio raíz del repositorio. Aquí se muestra un diagrama de la estructura recomendada:
+
+|- datasets/ # Carpeta con los datasets
+     |- 20230209_Rendimiento_2022_20230131_WEB.csv
+|- reports/ # Carpeta con los informes generados
+     |- report.html
+|- correlacion_asistencia_rendimiento.py
+|- data_analyst.py
+|- gpu_detector.py
+|- medium_random_forest.py
+|- min_random_forest.py
+|- random_forest.py
+|- red_neuronal.py
+|- README.md # Este archivo
+
+Asegúrate de que el dataset esté dentro de la carpeta `datasets` y que los informes generados se guarden en la carpeta `reports` para evitar inconvenientes con las rutas de los archivos en los scripts.
+
 ## Archivos en este Repositorio
 
 ### 1. [correlacion_asistencia_rendimiento.py](./correlacion_asistencia_rendimiento.py)
