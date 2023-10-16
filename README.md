@@ -113,3 +113,33 @@ Para desactivar el entorno cuando hayas terminado, simplemente ejecuta:
 conda deactivate
 
 ```
+
+## Resultados
+
+### Importancia de las Variables (`importancia_variables.py`)
+
+Se utilizó el script [importancia_variables.py](./importancia_variables.py) para analizar la importancia relativa de las variables en el dataset. Los resultados, expresados en porcentajes, fueron los siguientes:
+
+```plaintext
+          Feature  Importance (%)
+0      ASISTENCIA           48.48
+5         COD_JOR           15.03
+7  COD_DEPROV_RBD           10.67
+3        COD_ENSE           10.31
+1       COD_GRADO            6.14
+4        COD_DEPE            4.86
+6     COD_REG_RBD            3.46
+2       RURAL_RBD            1.05
+```
+
+Resultados del Modelo Random Forest (random_forest_clean_mejores_hiperparam.py)
+Se utilizaron los mejores hiperparámetros identificados para entrenar el modelo Random Forest, y se obtuvieron los siguientes resultados de error cuadrático medio (MSE), error absoluto medio (MAE) y coeficiente de determinación (R^2):
+
+```plaintext
+MSE de Entrenamiento: 0.25776162697809235
+MSE de Prueba: 0.3562078175185358
+MAE de Entrenamiento: 0.3550086595921462
+MAE de Prueba: 0.4116183435956437
+R^2 de Entrenamiento: 0.7137655783836987
+R^2 de Prueba: 0.6075955473627808
+```
