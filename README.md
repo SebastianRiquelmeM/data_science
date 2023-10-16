@@ -10,19 +10,18 @@ Para referencia adicional o para quienes deseen acceder a la fuente original, el
 
 Para un correcto funcionamiento de los scripts, es importante mantener una estructura organizada de los archivos y carpetas. Asegúrate de que las carpetas `datasets` y `reports` se encuentren en el directorio raíz del repositorio. Aquí se muestra un diagrama de la estructura recomendada:
 
-.
-├── datasets/
-│ └── 20230209_Rendimiento_2022_20230131_WEB.csv
-├── reports/
-│ └── report.html
-├── correlacion_asistencia_rendimiento.py
-├── data_analyst.py
-├── gpu_detector.py
-├── medium_random_forest.py
-├── min_random_forest.py
-├── random_forest.py
-├── red_neuronal.py
-└── README.md
+-   README.md
+-   correlacion_asistencia_rendimiento.py
+-   data_analyst.py
+-   gpu_detector.py
+-   medium_random_forest.py
+-   min_random_forest.py
+-   random_forest.py
+-   red_neuronal.py
+-   datasets/
+    -   20230209_Rendimiento_2022_20230131_WEB.csv
+-   reports/
+    -   report.html
 
 Asegúrate de que el dataset esté dentro de la carpeta `datasets` y que los informes generados se guarden en la carpeta `reports` para evitar inconvenientes con las rutas de los archivos en los scripts.
 
