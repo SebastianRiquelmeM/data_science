@@ -58,3 +58,48 @@ Implementa una red neuronal para predecir el rendimiento académico de los estud
 ## Dataset
 
 El dataset utilizado en estos scripts se ha obtenido del sitio web del gobierno. Es una colección comprensiva de datos relacionados con el rendimiento académico de los estudiantes, incluyendo variables como asistencia, notas, y otros factores que podrían influir en el rendimiento académico.
+
+## Configuración del Entorno Conda
+
+Este proyecto utiliza un entorno Conda específico para asegurar que todas las dependencias y librerías se manejen de manera consistente. Para instalar y activar este entorno, sigue los siguientes pasos:
+
+### Pre-requisitos
+
+-   Asegúrate de tener [Anaconda](https://www.anaconda.com/products/distribution) o [Miniconda](https://docs.conda.io/en/latest/miniconda.html) instalado en tu sistema.
+
+### Instalación del Entorno
+
+1. **Clonar el Repositorio:**
+   Clona este repositorio a tu máquina local para acceder al archivo de configuración del entorno Conda.
+
+2. **Navegar a la Carpeta del Repositorio:**
+   Utiliza la terminal o la línea de comandos para navegar a la carpeta donde se encuentra clonado el repositorio.
+
+3. **Crear el Entorno Conda:**
+   Ejecuta el siguiente comando para crear un nuevo entorno Conda a partir del archivo `environment.yml` proporcionado en el repositorio:
+
+    ```bash
+    conda env create -f environment.yml
+    ```
+
+    Esto instalará todas las dependencias necesarias en un nuevo entorno Conda.
+
+4. **Activar el Entorno:**
+   Una vez que la instalación esté completa, activa el entorno con el siguiente comando:
+
+    ```bash
+    conda activate myenv
+    ```
+
+    Asegúrate de reemplazar `myenv` con el nombre actual del entorno especificado en el archivo `environment.yml`.
+
+### Uso del Entorno
+
+Con el entorno Conda activado, ahora puedes ejecutar los scripts y notebooks del proyecto asegurando la consistencia en las dependencias y versiones de las librerías.
+
+Para desactivar el entorno cuando hayas terminado, simplemente ejecuta:
+
+```bash
+conda deactivate
+
+```
